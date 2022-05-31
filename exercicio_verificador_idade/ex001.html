@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de imagem</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de imagem</h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="gbano" id="gbano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="gbsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="gbsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!!
+
+        </div>
+
+    </section>
+    <footer>
+        <p>Programado em js por GB</p>
+
+    </footer>
+    <script src="bg.js"></script>
+</body>
+</html>
